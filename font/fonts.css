@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('./Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family:'Poppins',sans-serif ;
+    src: url('./Poppins-Medium.ttf');
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
