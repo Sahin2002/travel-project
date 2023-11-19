@@ -185,7 +185,7 @@ header .navbar nav ul li:first-child {
 .section-3 .section3-main .section3-header .serach input {
     width: 503px;
     border-radius: 13px;
-    padding: 10px 50px;
+    padding: 12px 50px;
     position: relative;
     top: 0;
     left: 0;
@@ -195,7 +195,7 @@ header .navbar nav ul li:first-child {
 
     position: absolute;
     left: 4%;
-    top: 28%;
+    top: 29%;
     z-index: 2;
 
 }
@@ -267,6 +267,13 @@ header .navbar nav ul li:first-child {
     justify-content: space-between;
     align-items: center;
 }
+.section-3 .section3-main .section3-images .con .image-1 .image1-bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
 
 .section-3 .section3-main .section3-images .con .image-2 .image2-bottom {
     display: flex;
@@ -281,6 +288,7 @@ header .navbar nav ul li:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .section-3 .section3-main .section3-images .con .image-3 .image3-bottom {
@@ -296,6 +304,7 @@ header .navbar nav ul li:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .section-3 .section3-main .section3-images .con .image-4 .image4-bottom {
@@ -311,6 +320,7 @@ header .navbar nav ul li:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .section-3 .section3-main .section3-images .con .image-2 {
