@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -22,17 +24,15 @@ header .navbar {
 }
 
 header .navbar nav ul {
-
     display: flex;
     list-style: none;
     background-color: #212121;
     border-radius: 30px;
     gap: 30px;
-
 }
 
 header .navbar nav ul li {
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 header .navbar nav ul li:first-child {
@@ -46,12 +46,11 @@ header .navbar nav ul li:first-child {
 .section-1 .main {
     width: 100%;
     height: 90vh;
-    background-image: url('../image/background-image.png');
+    background-image: url("../image/background-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
-
 }
 
 .section-1 .main .main-left {
@@ -66,7 +65,7 @@ header .navbar nav ul li:first-child {
 }
 
 .section-1 .main .main-left h1 span {
-    color: #D1D1D1;
+    color: #d1d1d1;
 }
 
 .section-1 .main .main-left h1 span:last-child {
@@ -116,7 +115,7 @@ header .navbar nav ul li:first-child {
 }
 
 .section-1 .main .main-right .main-right-bottom div span {
-    color: #D1D1D1;
+    color: #d1d1d1;
 }
 
 .section-1 .main .main-right .main-right-bottom div h3 {
@@ -128,7 +127,7 @@ header .navbar nav ul li:first-child {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #B1B1B1;
+    background-color: #b1b1b1;
 }
 
 .section-2 .div {
@@ -136,8 +135,6 @@ header .navbar nav ul li:first-child {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
-
-
 }
 
 .section-2 .div div img {
@@ -148,7 +145,7 @@ header .navbar nav ul li:first-child {
 .section-3 .section3-main {
     width: 100%;
 
-    background-image: url('../image/section-3.png');
+    background-image: url("../image/section-3.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0;
@@ -168,7 +165,7 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .section3-header h1 span {
-    color: #03CEC9;
+    color: #03cec9;
 }
 
 .section-3 .section3-main .section3-header p {
@@ -192,17 +189,15 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .section3-header .serach .serach-icon {
-
     position: absolute;
     left: 4%;
     top: 29%;
     z-index: 2;
-
 }
 
 .section-3 .section3-main .section3-header .serach button {
     padding: 9px;
-    background-color: #1E1325;
+    background-color: #1e1325;
     border: none;
     color: #fff;
     position: absolute;
@@ -212,7 +207,6 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .left {
-
     margin-top: 40px;
 }
 
@@ -230,7 +224,6 @@ header .navbar nav ul li:first-child {
 
 .section-3 .section3-main .section3-images {
     padding: 0 80px;
-
 }
 
 .section-3 .section3-main .section3-images .con {
@@ -242,20 +235,15 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .section3-images .con .flexs .div {
-
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-
 }
 
 .section-3 .section3-main .section3-images .con .image-1 {
-
-
-    background: #FEF5F517;
+    background: #fef5f517;
     padding: 15px;
     color: #fff;
-
 }
 
 .section-3 .section3-main .section3-images .con .image-1 h3 {
@@ -267,12 +255,12 @@ header .navbar nav ul li:first-child {
     justify-content: space-between;
     align-items: center;
 }
-.section-3 .section3-main .section3-images .con .image-1 .image1-bottom div{
+
+.section-3 .section3-main .section3-images .con .image-1 .image1-bottom div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
 }
 
 .section-3 .section3-main .section3-images .con .image-2 .image2-bottom {
@@ -324,8 +312,7 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .section3-images .con .image-2 {
-
-    background-color: #FEF5F517;
+    background-color: #fef5f517;
     padding: 15px;
     color: #fff;
 }
@@ -337,7 +324,7 @@ header .navbar nav ul li:first-child {
 .section-3 .section3-main .section3-images .con .image-3 {
     display: flex;
 
-    background-color: #FEF5F517;
+    background-color: #fef5f517;
     color: #fff;
     padding: 15px;
     gap: 20px;
@@ -345,8 +332,7 @@ header .navbar nav ul li:first-child {
 }
 
 .section-3 .section3-main .section3-images .con .image-4 {
-
-    background-color: #FEF5F517;
+    background-color: #fef5f517;
     color: #fff;
     padding: 15px 17px;
 }
@@ -370,7 +356,6 @@ header .navbar nav ul li:first-child {
     color: #fff;
     margin: 50px;
     font-size: 32px;
-
 }
 
 .section-3 .section3-main .section3-images .span span {
@@ -380,9 +365,158 @@ header .navbar nav ul li:first-child {
 .like {
     width: 36px;
     height: 36px;
-    background-color: #FEF5F517;
+    background-color: #fef5f517;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* .section-4 */
+.section-4 .con {
+    width: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0;
+}
+
+.section-4 .con .logos span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #009490;
+}
+
+.section-4 .con .images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    padding: 87px 60px;
+    gap: 60px;
+}
+
+.section-4 .con .images .img {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-4 .con .images .img img {
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.section-4 .con .images .img span {
+    font-size: 60px;
+    color: #6b6b6b;
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 20px;
+}
+
+.section-4 .con .images .img div {
+    width: fit-content;
+    background-color: #171721;
+    color: #fff;
+    padding: 10px 13px;
+    position: absolute;
+    top: 18%;
+}
+
+.section-4 .con .images .img div h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.section-4 .con .images .img div p {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+/* section-5 */
+.section-5 .con {
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+.section-5 .con .background {
+    width: 50%;
+  
+    background-image: url("../image/image 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.section-5 .con .forms {
+    width: 50%;
+    background-color: #272727;
+    padding: 37px 60px;
+}
+
+.section-5 .con .forms h1 {
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+
+.section-5 .con .forms h1 span {
+    color: #009490;
+}
+
+.section-5 .con .forms .form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px dashed #fff;
+    padding: 43px 67px;
+    color: #fff;
+    gap: 34px;
+}
+
+.section-5 .con .forms .form {
+    margin: 72px 0;
+}
+
+.section-5 .con .forms .form .radio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-5 .con .forms .form .input {
+    width: 100%;
+    padding: 11px 65px;
+}
+
+.section-5 .con .forms .form .div {
+    display: flex;
+    gap: 50px;
+}
+
+.section-5 .con .forms .form .div input {
+    width: 50%;
+}
+
+.section-5 .con .forms .form .div-1 input {
+    padding: 11px 65px;
+}
+
+.section-5 .con .forms .form .div-2 input {
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.section-5 .con .forms .form button {
+    width: 100%;
+    padding: 17px 90px;
+    background-color: #006360;
+    color: #fff;
+    border: none;
 }

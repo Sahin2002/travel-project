@@ -2,13 +2,20 @@
     font-family: 'Poppins', sans-serif;
     src: url('./Poppins-ExtraBold.ttf');
 }
+
 @font-face {
-    font-family:'Poppins',sans-serif ;
+    font-family: 'Poppins', sans-serif;
     src: url('./Poppins-Medium.ttf');
 }
-h1{
+
+h1 {
     font-family: 'Poppins', sans-serif;
 }
-p{
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
     font-family: 'Poppins', sans-serif;
 }
