@@ -567,7 +567,7 @@ header #checkbox2:checked+.toggle2 {
     flex-direction: column;
     align-items: flex-start;
     border: 2px dashed #fff;
-    padding: 43px 67px;
+    padding: 43px 37px;
     color: #fff;
     gap: 34px;
 }
